@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="h!!Wd!HBAjf/p+vhbT*|">mySprite</variable><variable type="KIND_SpriteKind" id="eWpG[T*aNtD46tw:c5.;">Player</variable><variable type="KIND_SpriteKind" id="rgkO#3{+b(kRe:S0+9(I">Projectile</variable><variable type="KIND_SpriteKind" id="/0[l/zVSL[u55Tz:akiC">Food</variable><variable type="KIND_SpriteKind" id="hCB#Xwv4h.f)jl9`Kh-|">Enemy</variable></variables><block type="pxt-on-start" id=")h}|Z;}KV:,(Bsiqmowu" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="JhW.M8`kh)oS6L.?@BSN"><field name="VAR" id="h!!Wd!HBAjf/p+vhbT*|">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="6Oa/U|0TA6NDCojcxV3^"><value name="img"><shadow type="screen_image_picker" id="W*glreR#w{?a}S}K(glj"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . . . . b c . . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 2 5 5 d 2 . . 
+. . . . b 5 5 1 2 2 5 d 4 c . . 
+. . . . b 5 5 d 2 b d d 4 4 . . 
+b d d d b b d 5 5 5 4 4 4 4 4 b 
+b b d 5 5 5 b 5 5 4 4 4 4 4 b . 
+b d c 5 5 5 5 d 5 5 5 5 5 b . . 
+c d d c d 5 5 b 5 5 5 5 5 5 b . 
+c b d d c c b 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="xBN(@5W5Vk~tD:X|M4+o"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="B`a{~)QXB^OYPgu_4Wo7"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="?+n3FnuAn6xSX8Y{_Id,"><field name="VAR" id="h!!Wd!HBAjf/p+vhbT*|">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="x`mBg59etOfAtU08RUe*"><field name="NUM">50</field></shadow></value><value name="vy"><shadow type="math_number" id="xO9#uGz(+jc{5MBnzQx}"><field name="NUM">50</field></shadow></value></block></next></block></statement></block></xml>
